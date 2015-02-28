@@ -1,0 +1,40 @@
+\hypertarget{classchess__core_1_1sliding__chess__piece}{}\section{chess\+\_\+core.\+sliding\+\_\+chess\+\_\+piece Class Reference}
+\label{classchess__core_1_1sliding__chess__piece}\index{chess\+\_\+core.\+sliding\+\_\+chess\+\_\+piece@{chess\+\_\+core.\+sliding\+\_\+chess\+\_\+piece}}
+Inheritance diagram for chess\+\_\+core.\+sliding\+\_\+chess\+\_\+piece\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.745098cm]{classchess__core_1_1sliding__chess__piece}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classchess__core_1_1sliding__chess__piece_a85cd8228689f00b73ecac63dd7daf714}{}{\bfseries sliding\+\_\+chess\+\_\+piece} (Point starting\+\_\+pos, \hyperlink{enumchess__core_1_1team__color}{team\+\_\+color} team, \hyperlink{classchess__core_1_1chess__game}{chess\+\_\+game} board)\label{classchess__core_1_1sliding__chess__piece_a85cd8228689f00b73ecac63dd7daf714}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classchess__core_1_1sliding__chess__piece_a9c6781ff5068ad3b4a6737b2732b9498}{}void {\bfseries update\+\_\+possible\+\_\+moves} ()\label{classchess__core_1_1sliding__chess__piece_a9c6781ff5068ad3b4a6737b2732b9498}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classchess__core_1_1sliding__chess__piece_a76f45c6e7ad7e2d83d33a25ab0244813}{}Point\mbox{[}$\,$\mbox{]} {\bfseries movement\+\_\+vectors} = null\label{classchess__core_1_1sliding__chess__piece_a76f45c6e7ad7e2d83d33a25ab0244813}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Created by tl on 2/12/15.
+
+A \char`\"{}\+Sliding\char`\"{} chess piece a sliding chess piece is allowed to move in a certain direction until it hits a wall or another piece Sliding pieces include pieces like \hyperlink{classchess__core_1_1rook}{chess\+\_\+core.\+rook} (moves horizontally and vertically), \hyperlink{classchess__core_1_1bishop}{chess\+\_\+core.\+bishop} (diagonal) and \hyperlink{classchess__core_1_1queen}{chess\+\_\+core.\+queen}
+
+movement\+\_\+vectors = directions a sliding piece can move in with varying magnitudes incrementally tries movements in one direction until a wall is hit
+
+To make a sliding chess piece, all that needs to be done is the movement\+\_\+vectors need to be defined 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/chess\+\_\+core/sliding\+\_\+chess\+\_\+piece.\+java\end{DoxyCompactItemize}

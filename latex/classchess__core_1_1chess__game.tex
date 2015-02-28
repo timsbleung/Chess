@@ -1,0 +1,98 @@
+\hypertarget{classchess__core_1_1chess__game}{}\section{chess\+\_\+core.\+chess\+\_\+game Class Reference}
+\label{classchess__core_1_1chess__game}\index{chess\+\_\+core.\+chess\+\_\+game@{chess\+\_\+core.\+chess\+\_\+game}}
+Inheritance diagram for chess\+\_\+core.\+chess\+\_\+game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classchess__core_1_1chess__game}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classchess__core_1_1chess__game_1_1player}{player}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classchess__core_1_1chess__game_a99875295918d6625376849679319241b}{}abstract void {\bfseries init\+\_\+game} ()\label{classchess__core_1_1chess__game_a99875295918d6625376849679319241b}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a9e94ac59c3ae17be159ce6c0df8e0274}{}abstract boolean {\bfseries is\+\_\+in\+\_\+bounds} (Point position)\label{classchess__core_1_1chess__game_a9e94ac59c3ae17be159ce6c0df8e0274}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_adbe4c11477e6944d8b2d5f593374849a}{}void {\bfseries update\+\_\+statuses} ()\label{classchess__core_1_1chess__game_adbe4c11477e6944d8b2d5f593374849a}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a84ed035e51594ec6e4c52682e87307ac}{}{\bfseries chess\+\_\+game} (\hyperlink{classchess__core_1_1chess__game}{chess\+\_\+game} other)\label{classchess__core_1_1chess__game_a84ed035e51594ec6e4c52682e87307ac}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a5ebd04c4b1b82ce5e26dbe1f8e18b1ce}{}void {\bfseries update\+\_\+all\+\_\+moves} ()\label{classchess__core_1_1chess__game_a5ebd04c4b1b82ce5e26dbe1f8e18b1ce}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a3460924fb30b8f9a04ce25db76f124dc}{}void {\bfseries update\+\_\+board} (Point old\+\_\+position, Point new\+\_\+position, \hyperlink{classchess__core_1_1chess__piece}{chess\+\_\+piece} piece)\label{classchess__core_1_1chess__game_a3460924fb30b8f9a04ce25db76f124dc}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a868b923e9dc89aa1bac92f108d99c769}{}void {\bfseries capture\+\_\+piece} (Point position)\label{classchess__core_1_1chess__game_a868b923e9dc89aa1bac92f108d99c769}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a302ddb48ccde5fb6237c314dc5c2dce5}{}\hyperlink{enumchess__core_1_1team__color}{team\+\_\+color} {\bfseries get\+\_\+occupying\+\_\+color} (Point point)\label{classchess__core_1_1chess__game_a302ddb48ccde5fb6237c314dc5c2dce5}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_ae06f22607a25c2eb8506028bf36cd029}{}List$<$ Point $>$ {\bfseries get\+\_\+movelist} (Point point)\label{classchess__core_1_1chess__game_ae06f22607a25c2eb8506028bf36cd029}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a148c8578eb1f84b6f14a73587ac6b232}{}boolean {\bfseries spot\+\_\+empty} (Point point)\label{classchess__core_1_1chess__game_a148c8578eb1f84b6f14a73587ac6b232}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a5fddc69fb2cb29aa8ffd071c40289a11}{}List$<$ \hyperlink{classchess__core_1_1chess__piece}{chess\+\_\+piece} $>$ {\bfseries get\+\_\+player\+\_\+pieces} (\hyperlink{enumchess__core_1_1team__color}{team\+\_\+color} color)\label{classchess__core_1_1chess__game_a5fddc69fb2cb29aa8ffd071c40289a11}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_ab3a5f5c195645e86285d69895e51fd5d}{}\hyperlink{enumchess__core_1_1player__status}{player\+\_\+status} {\bfseries get\+\_\+player\+\_\+status} (\hyperlink{enumchess__core_1_1team__color}{team\+\_\+color} color)\label{classchess__core_1_1chess__game_ab3a5f5c195645e86285d69895e51fd5d}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a9c144a5e9c141119dc8c3820b8d05d13}{}\hyperlink{classchess__core_1_1chess__piece}{chess\+\_\+piece} {\bfseries get\+\_\+piece\+\_\+at} (Point position)\label{classchess__core_1_1chess__game_a9c144a5e9c141119dc8c3820b8d05d13}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a4efa1ef50e67b669c56cd482b8378f78}{}void {\bfseries move\+\_\+piece} (Point from, Point to)  throws Exception\label{classchess__core_1_1chess__game_a4efa1ef50e67b669c56cd482b8378f78}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a57b8ea6545cf8dabeb00e05305a11520}{}void {\bfseries make\+\_\+piece} (int x, int y, \hyperlink{enumchess__core_1_1team__color}{team\+\_\+color} color, \hyperlink{enumchess__core_1_1piece__type}{piece\+\_\+type} type)\label{classchess__core_1_1chess__game_a57b8ea6545cf8dabeb00e05305a11520}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_af267d2fc681a90ea7afdaf49f7034c9f}{}void {\bfseries put\+\_\+piece} (\hyperlink{classchess__core_1_1chess__piece}{chess\+\_\+piece} piece, Point position)\label{classchess__core_1_1chess__game_af267d2fc681a90ea7afdaf49f7034c9f}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_adfded27abed79ceced263ce726c48a13}{}boolean {\bfseries is\+\_\+simulating} ()\label{classchess__core_1_1chess__game_adfded27abed79ceced263ce726c48a13}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a2625d75d88e1ad39dec7d34f713d1c01}{}boolean {\bfseries simulate\+\_\+move\+\_\+safety} (\hyperlink{classchess__core_1_1chess__piece}{chess\+\_\+piece} piece, Point position)  throws Exception \label{classchess__core_1_1chess__game_a2625d75d88e1ad39dec7d34f713d1c01}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classchess__core_1_1chess__game_ac61db7251fc43f61985873492b6aede9}{}Hash\+Map$<$ Point, \hyperlink{classchess__core_1_1chess__piece}{chess\+\_\+piece} $>$ {\bfseries board}\label{classchess__core_1_1chess__game_ac61db7251fc43f61985873492b6aede9}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a8bd15d77a95a3e8aa05895925390b321}{}\hyperlink{classchess__core_1_1chess__game_1_1player}{player} {\bfseries black}\label{classchess__core_1_1chess__game_a8bd15d77a95a3e8aa05895925390b321}
+
+\item 
+\hypertarget{classchess__core_1_1chess__game_a8bfcc0cfb084ed368c9fcc667969e766}{}\hyperlink{classchess__core_1_1chess__game_1_1player}{player} {\bfseries white}\label{classchess__core_1_1chess__game_a8bfcc0cfb084ed368c9fcc667969e766}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Created by tl on 2/10/15.
+
+chess game main class. an abstract class all chess games made should extend the \hyperlink{classchess__core_1_1chess__game}{chess\+\_\+core.\+chess\+\_\+game} class, which contains the logic involved for the main functions
+
+to make a custom chess game (completely extensible) implement the following two functions\+:
+\begin{DoxyItemize}
+\item init\+\_\+game() -\/ tell the game what pieces to put and where on the board
+\item is\+\_\+in\+\_\+bounds(\+Point position) tells the game what \char`\"{}parts\char`\"{} of the board are in bounds all functions used to determine activity will determine if a move is legal by calling this function 
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/chess\+\_\+core/chess\+\_\+game.\+java\end{DoxyCompactItemize}
